@@ -52,14 +52,25 @@ class PortfolioItem {
 
 var portfolioArr = [
   {
+    name: "Make Room",
+    synopsis: "Richmond Va Makers - Event Scheduler & Portoflio Platform",
+    image: "assets/images/make-room.jpg",
+    gitURL: "https://github.com/Vavassor/Make-Room",
+    siteURL: "https://make-room-3.herokuapp.com/",
+    mobile: true,
+    order: 1,
+    skip: false,
+    tech: ["Mongo.db", "AWS", "NodeJs","Express", "</br>", "Axios", "React"]
+  },
+  {
     name: "Google Books Search",
     synopsis: "React running with a Node.js server hitting google books API and saving data to Mongo DB - What more it there to say? ",
     image: "assets/images/winesburg-ohio.jpg",
     gitURL: "https://github.com/zkinsk/books-search",
     siteURL: "https://enigmatic-cliffs-12223.herokuapp.com/",
     mobile: true,
-    order: 1,
-    skip: false,
+    order: 900,
+    skip: true,
     tech: ["Mongo", "Mongoose", "NodeJs","Express", "</br>", "Axios", "React"]
   },
   {
@@ -69,7 +80,7 @@ var portfolioArr = [
     gitURL: "https://github.com/zkinsk/scrape-this",
     siteURL: "https://scrape-this-sz.herokuapp.com",
     mobile: true,
-    order: 5,
+    order: 3,
     skip: false,
     tech: ["Mongo", "Mongoose", "NodeJs","Express", "</br>", "Axios", "Cheerio", "Handlebars"]
   },
@@ -102,7 +113,7 @@ var portfolioArr = [
     gitURL: "https://github.com/zkinsk/BikeToBrew",
     siteURL: "https://zkinsk.github.io/BikeToBrew/",
     mobile: true,
-    order: 30,
+    order: 2,
     skip: false,
     tech: ["Materialize", "AJAX & APIs", "jQuery"]
   },
@@ -223,7 +234,7 @@ var portfolioArr = [
     gitURL: "https://github.com/zkinsk/react-memory-game",
     siteURL: "https://young-sierra-70479.herokuapp.com/",
     mobile: true,
-    order: 1,
+    order: 4,
     skip: false,
     tech: ["React", "Bootstrap"]
   },
