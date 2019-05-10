@@ -1,14 +1,14 @@
-const PortfoliItem = function (obj) {
-   this.name = obj.name;
-   this.synopsis = obj.synopsis;
-   this.image = obj.image;
-   this.gitURL = obj.gitURL;
-   this.siteURL = obj.siteURL;
-   this.mobile = obj.mobile;
-   this.tech = obj.tech;
-   this.skip = obj.skip;
+const PortfolioItem = function (obj) {
+  this.name = obj.name;
+  this.synopsis = obj.synopsis;
+  this.image = obj.image;
+  this.gitURL = obj.gitURL;
+  this.siteURL = obj.siteURL;
+  this.mobile = obj.mobile;
+  this.tech = obj.tech;
+  this.skip = obj.skip;
 
-  drawCard = function(){
+  this.drawCard = function(){
     let buttons = /*html*/`<a class="btn btn-success btn-block" href="${this.siteURL}" target="_blank" role= "button" aria-pressed="true">Check It Out</a>`
     if (this.mobile){
       buttons += /*html*/ `<button class="btn btn-success btn-block modalProject mb-0 d-none d-md-block" type="button" data-url="${this.siteURL}">Mobile</button>`
@@ -250,7 +250,6 @@ function drawPortolio(){
 }//end of drawPorfolio fn
 
 $(document).ready(function(){
-  console.log("port Obj")
   drawPortolio();
 // end of doc ready
 })
