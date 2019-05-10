@@ -55,6 +55,7 @@ $("#contactModal").on("click", "#messageSend", function(){
     $(".tooltip").remove();
     $("#porfolioModal").modal();
   })//end of scootImg
+  
 };//end of click buttons
 
 function toolTipInitialization(){//initialize bootstrap tool tips
@@ -63,7 +64,7 @@ function toolTipInitialization(){//initialize bootstrap tool tips
 };//end of tool tip initialization
 
 $(document).ready(function(){
-  drawPortolio();
+  // drawPortolio();
   modalMonitor();
   clickButtons();
   toolTipInitialization();;
