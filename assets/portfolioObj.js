@@ -50,13 +50,25 @@ const PortfolioItem = function (obj) {
 
 var portfolioArr = [
   {
+    name: "Client Invoice Form",
+    synopsis: "Form for client invoice remittance",
+    image: "assets/images/payment-form-sq.jpg",
+    gitURL: "https://github.com/zkinsk/portfolio",
+    siteURL: "https://safe-river-75201.herokuapp.com/",
+    mobile: true,
+    order: 30,
+    skip: false,
+    tech: ["React", "Axios"]
+  },
+  
+  {
     name: "Make Room",
     synopsis: "Richmond Va Makers - Event Scheduler & Portoflio Platform",
     image: "assets/images/make-room.jpg",
     gitURL: "https://github.com/Vavassor/Make-Room",
     siteURL: "https://make-room-3.herokuapp.com/",
     mobile: true,
-    order: 1,
+    order: 10,
     skip: false,
     tech: ["Mongo.db", "AWS", "NodeJs","Express", "</br>", "Axios", "React"]
   },
@@ -78,7 +90,7 @@ var portfolioArr = [
     gitURL: "https://github.com/zkinsk/scrape-this",
     siteURL: "https://scrape-this-sz.herokuapp.com",
     mobile: true,
-    order: 3,
+    order: 40,
     skip: false,
     tech: ["Mongo", "Mongoose", "NodeJs","Express", "</br>", "Axios", "Cheerio", "Handlebars"]
   },
@@ -90,7 +102,7 @@ var portfolioArr = [
     siteURL: "https://zkinsk.github.io/Word-Guess-Game/",
     mobile: false,
     order: 200,
-    skip: false,
+    skip: true,
     tech: ["HTML", "CSS", "Javascript"]
   },
   {
@@ -111,7 +123,7 @@ var portfolioArr = [
     gitURL: "https://github.com/zkinsk/BikeToBrew",
     siteURL: "https://zkinsk.github.io/BikeToBrew/",
     mobile: true,
-    order: 2,
+    order: 20,
     skip: false,
     tech: ["Materialize", "AJAX & APIs", "jQuery"]
   },
@@ -123,7 +135,7 @@ var portfolioArr = [
     siteURL: "https://zkinsk.github.io/unit-4-RPGgame/",
     mobile: false,
     order: 60,
-    skip: false,
+    skip: true,
     tech: ["HTML", "Bootstrap", "jQuery"]
   },
   {
@@ -134,7 +146,7 @@ var portfolioArr = [
     siteURL: "https://zkinsk.github.io/TriviaGame/",
     mobile: false,
     order: 50,
-    skip: false,
+    skip: true,
     tech: ["HTML", "Bootstrap", "jQuery"]
   },
   {
@@ -144,8 +156,8 @@ var portfolioArr = [
     gitURL: "https://github.com/zkinsk/Giphy-HW",
     siteURL: "https://zkinsk.github.io/Giphy-HW/",
     mobile: true,
-    order: 20,
-    skip: false,
+    order: 25,
+    skip: true,
     tech: ["AJAX & APIs", "Bootstrap", "jQuery"]
   },
   {
@@ -155,7 +167,7 @@ var portfolioArr = [
     gitURL: "assets/images/RockPaperScissors.jpg",
     siteURL: "https://zkinsk.github.io/RPS-Multiplayer/",
     mobile: true,
-    order: 40,
+    order: 60,
     skip: false,
     tech: ["Firebase", "jQuery", "Bootstrap"]
   },
@@ -200,7 +212,7 @@ var portfolioArr = [
     siteURL: "https://friend-finder-sz-2.herokuapp.com/",
     mobile: true,
     order: 110,
-    skip: false,
+    skip: true,
     tech: ["nodeJS", "Heroku", "express", "handlebars"]
   },
   {
@@ -211,7 +223,7 @@ var portfolioArr = [
     siteURL: "https://burgerize-scz.herokuapp.com/",
     mobile: true,
     order: 120,
-    skip: false,
+    skip: true,
     tech: ["ORM", "mySQL", "nodeJS", "express", "handlebars"]
   },
   {
@@ -222,7 +234,7 @@ var portfolioArr = [
     siteURL: "https://dogs-day-out-2.herokuapp.com/",
     mobile: true,
     order: 10,
-    skip: false,
+    skip: true,
     tech: ["nodeJS", "express", "sequelize", "AWS", "Heroku", "</br>", "Bulma", "Handlebars"]
   },
   {
@@ -232,7 +244,7 @@ var portfolioArr = [
     gitURL: "https://github.com/zkinsk/react-memory-game",
     siteURL: "https://young-sierra-70479.herokuapp.com/",
     mobile: true,
-    order: 4,
+    order: 50,
     skip: false,
     tech: ["React", "Bootstrap"]
   },
