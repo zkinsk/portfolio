@@ -60,12 +60,11 @@ var portfolioArr = [
     skip: false,
     tech: ["React", "Axios"]
   },
-  
   {
     name: "Make Room",
     synopsis: "Richmond Va Makers - Event Scheduler & Portoflio Platform",
     image: "assets/images/make-room.jpg",
-    gitURL: "https://github.com/Vavassor/Make-Room",
+    gitURL: "https://github.com/zkinsk/Make-Room",
     siteURL: "https://make-room-3.herokuapp.com/",
     mobile: true,
     order: 10,
