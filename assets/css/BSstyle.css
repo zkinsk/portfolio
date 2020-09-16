@@ -1,4 +1,4 @@
-/* 
+/*
 page background color: #3a4147
 content & card background color: #2d3237
 */
@@ -81,7 +81,10 @@ container */
 	border: transparent 4px solid;
 	border-radius: 4px;
 }
-
+.hidden-about-me-text{
+	font-weight: 600;
+	font-size: larger;
+}
 #aboutMe {
 	background-color: #2d3237;
 	border: transparent 2px solid;
