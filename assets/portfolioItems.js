@@ -104,7 +104,7 @@ var portfolioArr = [
   {
     name: 'Endless Landing',
     synopsis: 'Example Landing Page - Built with React',
-    image: 'assets/images/endless-square.png.',
+    image: 'assets/images/endless-square.png',
     gitURL: 'https://github.com/zkinsk/endless',
     siteURL: 'https://endless-scz.herokuapp.com/',
     mobile: true,
