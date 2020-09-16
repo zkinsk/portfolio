@@ -29,7 +29,7 @@ var portfolioArr = [
     gitURL: 'https://github.com/zkinsk/scrape-this',
     siteURL: 'https://scrape-this-sz.herokuapp.com',
     mobile: true,
-    order: 40,
+    order: 60,
     skip: false,
     tech: ['Mongo', 'Mongoose', 'NodeJs', 'Express', '</br>', 'Axios', 'Cheerio', 'Handlebars'],
   },
@@ -55,19 +55,6 @@ var portfolioArr = [
     skip: true,
     tech: ['AJAX & APIs', 'Bootstrap', 'jQuery'],
   },
-  {
-    name: 'MultiPlayer Rock Paper Sissors',
-    synopsis:
-      'Play rock paper sissors with your best buds and chat smack while your crack some sissors',
-    image: 'assets/images/RockPaperScissors.jpg',
-    gitURL: 'assets/images/RockPaperScissors.jpg',
-    siteURL: 'https://zkinsk.github.io/RPS-Multiplayer/',
-    mobile: true,
-    order: 60,
-    skip: true,
-    tech: ['Firebase', 'jQuery', 'Bootstrap'],
-  },
-
   {
     name: 'Eat Dat Burger',
     synopsis: 'Create a Burger, Chomp a Burger and watch the database update!',
