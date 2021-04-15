@@ -4,7 +4,8 @@ var portfolioArr = [
     synopsis: 'Form for client invoice remittance',
     image: 'assets/images/payment-form-sq.jpg',
     gitURL: 'https://github.com/zkinsk/portfolio',
-    siteURL: 'https://safe-river-75201.herokuapp.com/',
+    siteURL: 'https://endless-8juig.ondigitalocean.app/',
+
     mobile: true,
     order: 30,
     skip: false,
@@ -15,7 +16,7 @@ var portfolioArr = [
     synopsis: 'Richmond Va Makers - Event Scheduler & Portoflio Platform',
     image: 'assets/images/make-room.jpg',
     gitURL: 'https://github.com/zkinsk/Make-Room',
-    siteURL: 'https://endless-8juig.ondigitalocean.app/',
+    siteURL: 'https://make-room-3.herokuapp.com/',
     mobile: true,
     order: 10,
     skip: false,
