@@ -4,8 +4,7 @@ var portfolioArr = [
     synopsis: 'Form for client invoice remittance',
     image: 'assets/images/payment-form-sq.jpg',
     gitURL: 'https://github.com/zkinsk/portfolio',
-    siteURL: 'https://endless-8juig.ondigitalocean.app/',
-
+    siteURL: 'https://payment-form-j85r9.ondigitalocean.app/',
     mobile: true,
     order: 30,
     skip: false,
@@ -94,7 +93,7 @@ var portfolioArr = [
     synopsis: 'Example Landing Page - Built with React',
     image: 'assets/images/endless-square.png',
     gitURL: 'https://github.com/zkinsk/endless',
-    siteURL: 'https://endless-scz.herokuapp.com/',
+    siteURL: 'https://endless-8juig.ondigitalocean.app/',
     mobile: true,
     order: 1,
     skip: false,
