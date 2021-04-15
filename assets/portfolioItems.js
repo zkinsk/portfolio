@@ -15,7 +15,7 @@ var portfolioArr = [
     synopsis: 'Richmond Va Makers - Event Scheduler & Portoflio Platform',
     image: 'assets/images/make-room.jpg',
     gitURL: 'https://github.com/zkinsk/Make-Room',
-    siteURL: 'https://make-room-3.herokuapp.com/',
+    siteURL: 'https://endless-8juig.ondigitalocean.app/',
     mobile: true,
     order: 10,
     skip: false,
